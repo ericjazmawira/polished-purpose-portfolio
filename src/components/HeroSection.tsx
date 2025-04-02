@@ -1,56 +1,43 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <div className="relative min-h-screen flex items-center bg-portfolio-black text-white overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-portfolio-black via-portfolio-black/95 to-portfolio-black"></div>
+    <section className="relative bg-portfolio-black text-white overflow-hidden">
+      {/* Blue and gold accent circles */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-portfolio-blue/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-portfolio-gold/20 rounded-full blur-3xl translate-y-1/3 -translate-x-1/2"></div>
       
-      {/* Blue accent shape */}
-      <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full bg-portfolio-blue/30 blur-3xl"></div>
-      
-      {/* Gold accent shape */}
-      <div className="absolute bottom-20 -left-20 w-96 h-96 rounded-full bg-portfolio-gold/20 blur-3xl"></div>
-      
-      <div className="container mx-auto px-6 md:px-12 z-10 flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 py-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 animate-slide-in">
-            <span className="text-white">Creating </span>
-            <span className="gold-text">Digital Excellence</span>
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-24 md:py-32 relative z-10">
+        <div className="max-w-3xl">
+          <h1 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
+            Transforming Ideas Into <span className="gold-text">Digital Excellence</span>
           </h1>
-          <p className="text-gray-300 text-lg mb-8 max-w-lg animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            UI/UX design, graphic design, web development, IT support, networking, 
-            and hardware solutions tailored to elevate your digital presence.
+          
+          <p className="text-gray-300 text-lg mb-8 max-w-lg animate-fade-in">
+            Expert UI/UX design, graphic design, web development, IT support, networking, 
+            and hardware solutions designed to transform and elevate your digital presence.
           </p>
-          <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <Button asChild className="bg-portfolio-gold hover:bg-portfolio-gold/90 text-portfolio-black">
+          
+          <div className="flex flex-wrap gap-4">
+            <Button asChild size="lg" className="bg-portfolio-gold hover:bg-portfolio-gold/90 text-portfolio-black">
               <Link to="/services">
-                Explore Services <ArrowRight className="ml-2" size={16} />
+                Explore Services <ArrowRight className="ml-2" size={18} />
               </Link>
             </Button>
-            <Button asChild variant="outline" className="border-portfolio-gold text-portfolio-gold hover:bg-portfolio-gold/10">
+            
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
               <Link to="/contact">
-                Contact Me
+                Get In Touch
               </Link>
             </Button>
-          </div>
-        </div>
-        
-        <div className="md:w-1/2 py-12 flex justify-center">
-          <div className="relative w-full max-w-md aspect-square">
-            {/* Hero image container with border effect */}
-            <div className="absolute inset-0 gold-gradient rounded-xl animate-shine"></div>
-            <div className="absolute inset-0.5 bg-portfolio-black rounded-xl overflow-hidden">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
-            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
