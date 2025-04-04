@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+# My Portfolio Website
 
-## Project info
+Welcome to my personal portfolio website! This site showcases my skills, experience, and some of the projects I’ve worked on. I built it to demonstrate my expertise in front-end development and my passion for web design.
 
-**URL**: https://lovable.dev/projects/4b269df4-8c03-463e-a455-8cce3943e312
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Website Structure](#website-structure)
+- [Installation](#installation)
+- [Contact](#contact)
 
-## How can I edit this code?
+## Introduction
 
-There are several ways of editing your application.
+This is my personal portfolio, where you can learn more about me, my work, and the services I offer. The website includes the following sections:
 
-**Use Lovable**
+- **Home**: An introduction to who I am and what I do.
+- **About**: A deeper dive into my background, skills, and experience.
+- **Services**: The services I offer, from web development to consulting.
+- **Contact**: A contact form for inquiries or potential collaborations.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4b269df4-8c03-463e-a455-8cce3943e312) and start prompting.
+## Features
+- **Responsive Design**: Optimized for mobile, tablet, and desktop viewing.
+- **Smooth Scroll**: Elegant smooth scrolling between sections.
+- **Hover Effects**: Interactive hover effects to make the experience more engaging.
+- **Contact Form**: A form section for direct communication or inquiries.
+- **Animations**: Subtle animations using Tailwind CSS for a modern look and feel.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technologies Used
+- **HTML**: Structured the content of the website.
+- **CSS**: Custom styling for a clean and modern design.
+- **Tailwind CSS**: Utility-first CSS framework to speed up the development process.
+- **TypeScript**: Used for added type safety and better code quality in handling interactive elements.
 
-**Use your preferred IDE**
+## Website Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Sections:
+1. **Home**: A welcoming section with a brief introduction about myself.
+2. **About**: A section dedicated to my journey as a developer, including key projects and skills.
+3. **Services**: Describes the services I provide, such as web development, UI/UX design, and consulting.
+4. **Contact**: A contact form where visitors can reach out to me for potential collaborations, feedback, or opportunities.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4b269df4-8c03-463e-a455-8cce3943e312) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Folder Structure:
