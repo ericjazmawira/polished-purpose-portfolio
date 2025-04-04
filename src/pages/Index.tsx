@@ -78,7 +78,7 @@ const Index = () => {
             <h2 className="text-sm uppercase tracking-wider text-portfolio-gold mb-2">About Me</h2>
             <h3 className="text-3xl md:text-4xl font-serif font-bold mb-4">Passionate Digital Professional</h3>
             <p className="text-gray-600 mb-6">
-              With over 8 years of experience in the digital industry, I've helped numerous 
+              With over 3 years of experience in the digital industry, I've helped numerous 
               businesses transform their digital presence through thoughtful design and technical expertise.
             </p>
             <ul className="space-y-2 mb-8">
@@ -101,7 +101,7 @@ const Index = () => {
               {/* Border effect */}
               <div className="absolute inset-0 gold-gradient rounded-xl animate-shine"></div>
               <div className="absolute inset-0.5 bg-white rounded-xl overflow-hidden">
-                <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
+                <div className="h-full w-full bg-[url(/public/Ericjaz_.png)] bg-cover bg-center"></div>
               </div>
             </div>
           </div>

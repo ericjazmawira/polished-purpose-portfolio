@@ -33,8 +33,8 @@ const About = () => {
             {/* Border effect */}
             <div className="absolute inset-0 gold-gradient rounded-xl animate-shine"></div>
             <div className="absolute inset-0.5 bg-white rounded-xl overflow-hidden">
-              <div className="h-full w-full bg-[#] bg-cover bg-center"></div>
-            </div>
+              <div className="h-full w-full bg-[url(/public/Ericjaz_.png)] bg-cover bg-center"></div>
+              </div>
           </div>
         </div>
         
@@ -44,7 +44,7 @@ const About = () => {
           </h2>
           <h3 className="text-portfolio-gold text-lg mb-4">Digital Professional & IT Specialist</h3>
           <p className="text-gray-600 mb-6">
-            With over 8 years of experience in the digital industry, I've helped numerous 
+            With over 3 years of experience in the digital industry, I've helped numerous 
             businesses transform their digital presence. I combine creative design with technical 
             expertise to deliver comprehensive solutions that meet client needs.
           </p>
@@ -59,28 +59,28 @@ const About = () => {
               <User size={20} className="text-portfolio-gold mr-2" />
               <div>
                 <h4 className="font-medium">Name</h4>
-                <p className="text-gray-600">John Doe</p>
+                <p className="text-gray-600">Eric Mawira</p>
               </div>
             </div>
             <div className="flex items-center">
               <Briefcase size={20} className="text-portfolio-gold mr-2" />
               <div>
                 <h4 className="font-medium">Experience</h4>
-                <p className="text-gray-600">8+ Years</p>
+                <p className="text-gray-600">3+ Years</p>
               </div>
             </div>
             <div className="flex items-center">
               <Award size={20} className="text-portfolio-gold mr-2" />
               <div>
                 <h4 className="font-medium">Projects</h4>
-                <p className="text-gray-600">200+ Completed</p>
+                <p className="text-gray-600">50+ Completed</p>
               </div>
             </div>
             <div className="flex items-center">
               <Book size={20} className="text-portfolio-gold mr-2" />
               <div>
                 <h4 className="font-medium">Education</h4>
-                <p className="text-gray-600">B.S. Computer Science</p>
+                <p className="text-gray-600">B.S. Business Information Technology</p>
               </div>
             </div>
           </div>
@@ -116,10 +116,10 @@ const About = () => {
         <div className="relative border-l-2 border-portfolio-gold pl-8 ml-4 md:ml-0 md:mx-auto md:max-w-3xl">
           {[
             {
-              period: "2021 - Present",
-              title: "Senior UI/UX Designer & IT Consultant",
-              company: "Tech Solutions Inc.",
-              description: "Lead design projects and provide IT consulting services for enterprise clients."
+              period: "2025 - Present",
+              title: "ICT Technician",
+              company: "USAID Dumisha Afya.",
+              description: "Lead IT Support and Technicain for Program Staff."
             },
             {
               period: "2018 - 2021",
@@ -155,19 +155,19 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              period: "2011 - 2015",
-              degree: "Bachelor of Science in Computer Science",
-              institution: "Tech University"
+              period: "2018 - 2022",
+              degree: "Bachelor of Business Information Technology",
+              institution: "Scott Christian University"
             },
             {
-              period: "2017",
-              degree: "UI/UX Design Certification",
-              institution: "Design Academy"
+              period: "2020",
+              degree: "Digital Marketing Certification",
+              institution: "Google Digital Skills"
             },
             {
-              period: "2019",
-              degree: "Network Administration Certification",
-              institution: "IT Professional Institute"
+              period: "2024",
+              degree: "AWS for Beginners",
+              institution: "Great Learning Academy"
             },
           ].map((item, index) => (
             <div key={index} className="p-6 border border-gray-200 rounded-lg bg-white card-hover-effect">
