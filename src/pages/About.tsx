@@ -17,8 +17,11 @@ const About = () => {
             About <span className="gold-text">Me</span>
           </h1>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            I'm a digital professional with expertise in UI/UX design, graphic design, web development, 
-            IT support, networking, and hardware solutions.
+          Passionate about system administration, I thrive in dynamic environments, 
+          quickly adapting to challenges and delivering results. 
+          With a strong foundation in IT support and systems administration from my business informatics degree,
+           I’m eager to apply my skills to real-world problems. A dedicated team player, I value collaboration, 
+           continuous learning, and making meaningful contributions to every organization I join
           </p>
         </div>
       </div>
@@ -30,14 +33,14 @@ const About = () => {
             {/* Border effect */}
             <div className="absolute inset-0 gold-gradient rounded-xl animate-shine"></div>
             <div className="absolute inset-0.5 bg-white rounded-xl overflow-hidden">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[#] bg-cover bg-center"></div>
             </div>
           </div>
         </div>
         
         <div>
           <h2 className="text-2xl md:text-3xl font-serif font-bold mb-4">
-            John Doe
+            Eric Mawira
           </h2>
           <h3 className="text-portfolio-gold text-lg mb-4">Digital Professional & IT Specialist</h3>
           <p className="text-gray-600 mb-6">

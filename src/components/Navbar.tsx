@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import Logo from '@/lib/logo.png';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,11 +28,12 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-portfolio-black/90 backdrop-blur-sm py-4 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <Link to="/" className="flex items-center">
-          <span className="font-serif text-2xl font-bold gold-text animate-shine">
-            PortfolioX
-          </span>
-        </Link>
+      <Link to="/" className="flex items-center">
+      <img 
+        src={Logo} 
+        alt="Portfolio Logo" 
+        className="h-20 w-auto transition-opacity hover:opacity-80 dark:invert"/>
+      </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
