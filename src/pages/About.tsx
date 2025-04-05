@@ -172,7 +172,7 @@ const About = () => {
               institution: "Great Learning Academy"
             },
             {
-              period: "2020",
+              period: "October 2020",
               degree: "Digital Marketing Certification",
               institution: "Google Digital Skills"
             },
