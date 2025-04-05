@@ -122,17 +122,24 @@ const About = () => {
               description: "Lead IT Support and Technicain for Program Staff."
             },
             {
-              period: "2018 - 2021",
-              title: "Web Developer & Network Administrator",
-              company: "Digital Innovations",
-              description: "Developed web applications and maintained network infrastructure."
+              period: "2023 - 2024",
+              title: "IT Assistant Intern",
+              company: "USAID Dumisha Afya.",
+              description: "Provided technical support to program staff, maintained hardware and software systems, assisted in troubleshooting network issues, and ensured smooth day-to-day IT operations within the organization."
             },
             {
-              period: "2015 - 2018",
-              title: "Graphic Designer & IT Support Specialist",
-              company: "Creative Studios",
-              description: "Created visual designs and provided technical support to clients."
+              period: "May - Aug 2022",
+              title: "IT Assistant Intern",
+              company: "Shalom Hospitals",
+              description: "Assisted with IT support tasks, designed visual materials for internal use, provided technical assistance to staff, and contributed to maintaining computer systems and software functionality."
             },
+            {
+              period: "2018 - 2021",
+              title: "Business Information Technology Student",
+              company: "Scott Christian University",
+              description: "Studied a blend of business and IT, focusing on systems analysis, web development, and IT project management. Gained hands-on experience through academic projects and practical labs."
+            },
+            
           ].map((item, index) => (
             <div key={index} className="mb-12 relative">
               <div className="absolute -left-10 md:-left-[42px] w-7 h-7 bg-portfolio-gold rounded-full border-4 border-white"></div>
@@ -154,20 +161,25 @@ const About = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
+             {
+              period: "Feb 2025  - Present",
+              degree: "Software Engineering",
+              institution: "Power Learn Project Africa"
+            },
             {
-              period: "2018 - 2022",
-              degree: "Bachelor of Business Information Technology",
-              institution: "Scott Christian University"
+              period: "March 2024",
+              degree: "AWS for Beginners",
+              institution: "Great Learning Academy"
             },
             {
               period: "2020",
               degree: "Digital Marketing Certification",
               institution: "Google Digital Skills"
             },
-            {
-              period: "2024",
-              degree: "AWS for Beginners",
-              institution: "Great Learning Academy"
+             {
+              period: "2018 - 2022",
+              degree: "Bachelor of Business Information Technology",
+              institution: "Scott Christian University"
             },
           ].map((item, index) => (
             <div key={index} className="p-6 border border-gray-200 rounded-lg bg-white card-hover-effect">

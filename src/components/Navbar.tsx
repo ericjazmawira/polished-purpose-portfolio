@@ -26,13 +26,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full z-50 bg-portfolio-black/90 backdrop-blur-sm py-4 px-6 md:px-12">
+    <nav className="fixed w-full z-50 bg-portfolio-black/90 backdrop-blur-sm py-2.5 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
       <Link to="/" className="flex items-center">
       <img 
         src={Logo} 
         alt="Portfolio Logo" 
-        className="h-20 w-auto transition-opacity hover:opacity-80 dark:invert"/>
+        className="h-20 w-auto transition-opacity hover:opacity-100 dark:invert"/>
       </Link>
 
         {/* Desktop Navigation */}
@@ -50,9 +50,13 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="bg-portfolio-gold hover:bg-portfolio-gold/90 text-portfolio-black">
-            Get in Touch
-          </Button>
+          <a href="https://wa.me/254768684743"
+              target="_blank"
+              rel="noopener noreferrer">
+              <Button className="bg-portfolio-gold hover:bg-portfolio-gold/90 text-portfolio-black">
+                Get in Touch
+              </Button>
+            </a>        
         </div>
 
         {/* Mobile Menu Button */}

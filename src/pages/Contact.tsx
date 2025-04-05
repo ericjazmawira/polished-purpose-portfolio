@@ -64,14 +64,14 @@ const Contact = () => {
             {
               icon: Mail,
               title: "Email",
-              info: "contact@portfoliox.com",
-              link: "mailto:contact@portfoliox.com"
+              info: "ericjazmawira@gmail.com",
+              link: "mailto:ericjazmawira@gmail.com"
             },
             {
               icon: Phone,
               title: "Phone",
-              info: "+1 (234) 567-890",
-              link: "tel:+1234567890"
+              info: "(254) 768 684 743",
+              link: "tel:+254768684743"
             },
             {
               icon: MapPin,
@@ -110,7 +110,7 @@ const Contact = () => {
               <div className="absolute inset-0 gold-gradient rounded-xl animate-shine"></div>
               <div className="absolute inset-0.5 bg-white rounded-xl overflow-hidden">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2suk!4v1654612080529!5m2!1sen!2suk" 
+                  src="https://www.google.com/maps/place/Nairobi/@-1.303209,36.8473969,47402m/data=!3m2!1e3!4b1!4m6!3m5!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462!16zL20vMDVkNDk?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" 
                   className="w-full h-full border-0"
                   allowFullScreen
                   loading="lazy"
@@ -133,7 +133,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     required
                     className="w-full"
                   />
@@ -148,7 +148,7 @@ const Contact = () => {
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="email@example.com"
                     required
                     className="w-full"
                   />
